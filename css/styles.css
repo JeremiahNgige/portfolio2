@@ -13,7 +13,6 @@ header{
     z-index: 10;
     position: fixed;
     background: black;
-    opacity: 85%;
 }
 #bannes{
     width: 100%;
