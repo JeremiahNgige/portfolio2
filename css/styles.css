@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 150px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background: url("/images/portfolio.png");
+}
+#bannes{
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: 150px;
+    background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 200% 100%;
+    color: #FFF;
+    text-align: center ;
+    opacity: 60%;
+   
+}
+#content{
+    width: 100%;
+    position: relative;
+    top: 400px;
+    height: 1800px;
+    background-color: whitesmoke;
+}
+#img {
+    border-radius: 50%;
+    float: left;
+}
+#juu{
+    top: 100px;
+}
+#hdr-txt{
+    font-size: 80px;
+    color: white;
+    float:right;
+
+}
+h1{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border: 3px solid whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10%;
+}
+.card{
+    height: 400px;
+    color: teal;
+}
+p#hdr-txt{
+    font-size: 40px;
+    border-radius: 20%;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+.card.box-card{
+    width: 500px;
+    background-color: teal;
+}
+#right-one.card.box-card{
+    float: right;
+    background-color: tomato;
+}
+#right-one-two.card.box-card{
+    float: right;
+    background-color: aquamarine !important;
+}
+.card-txt.card.box-card{
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+}
