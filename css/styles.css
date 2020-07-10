@@ -12,7 +12,7 @@ header{
     width: 100%;
     z-index: 10;
     position: fixed;
-    background: url("/images/portfolio.png");
+    background: black;
 }
 #bannes{
     width: 100%;
