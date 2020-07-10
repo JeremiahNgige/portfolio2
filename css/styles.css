@@ -12,7 +12,8 @@ header{
     width: 100%;
     z-index: 10;
     position: fixed;
-    background: url("/images/portfolio.pnghttps://github.com/JeremiahNgige/portfolio2/blob/master/images/portfolio.png");
+    background: black;
+    opacity: 85%;
 }
 #bannes{
     width: 100%;
